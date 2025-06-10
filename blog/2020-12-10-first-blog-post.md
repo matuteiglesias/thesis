@@ -40,18 +40,6 @@ Economic fluctuations affect us all—from policymakers designing regulations to
 
 For example: understanding that idiosyncratic variance doesn’t always vanish at scale helps explain why crises can emerge even in seemingly diversified systems. Insights like these can shape policies that account for real-world complexities rather than relying on oversimplified models.
 
-
-## Let’s Connect
-
-I’d love to hear your thoughts, feedback, or even collaborate on related projects. Let’s connect on [LinkedIn](https://www.linkedin.com/in/matiasiglesias/) or drop me a line at [matuteiglesias@gmail.com](mailto:matuteiglesias@gmail.com).
-
-Thanks for being part of this journey!
-
-
-You’re on the right track, but let’s refine the approach to ensure **clarity, accessibility, and academic citation readiness**. Here’s a more **polished and citation-friendly** format:
-
----
-
 ## Let’s Connect
 
 I’d love to hear your thoughts, feedback, or even collaborate on related projects. Connect with me on [LinkedIn](https://www.linkedin.com/in/matiasiglesias/) or email me at [matuteiglesias@gmail.com](mailto:matuteiglesias@gmail.com).
