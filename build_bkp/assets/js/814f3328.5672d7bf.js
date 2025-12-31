@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthesis=self.webpackChunkthesis||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Why I Built This Site (and What\'s Inside)","permalink":"/blog/why-i-built-this-site","unlisted":false,"date":"2020-12-10T00:00:00.000Z"}]}')}}]);

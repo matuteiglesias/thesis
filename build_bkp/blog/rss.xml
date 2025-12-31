@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Essays in the Economics of Aggregation Blog</title>
+        <link>https://thesis.matuteiglesias.link/blog</link>
+        <description>Essays in the Economics of Aggregation Blog</description>
+        <lastBuildDate>Thu, 10 Dec 2020 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Why I Built This Site (and What's Inside)]]></title>
+            <link>https://thesis.matuteiglesias.link/blog/why-i-built-this-site</link>
+            <guid>https://thesis.matuteiglesias.link/blog/why-i-built-this-site</guid>
+            <pubDate>Thu, 10 Dec 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hi, I’m Matías Iglesias—a data scientist and economist who’s passionate about understanding how the small effects of individual firms are accounted in the big picture of our economy. As a researcher in Economics, I’ve poured my energy into researching the aggregation of firm-level fluctuations into national economic trends.]]></description>
+            <content:encoded><![CDATA[<p>Hi, I’m Matías Iglesias—a data scientist and economist who’s passionate about understanding how the small effects of individual firms are accounted in the big picture of our economy. As a researcher in Economics, I’ve poured my energy into researching the aggregation of firm-level fluctuations into national economic trends.</p>
+<p>But I realized something: even the most insightful research can remain hidden if it’s buried in a dense long document. That’s why I built this site—a place where my thesis comes to life as an interactive, readable, and accessible resource.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-i-created-this-site">Why I Created This Site<a href="https://thesis.matuteiglesias.link/blog/why-i-built-this-site#why-i-created-this-site" class="hash-link" aria-label="Direct link to Why I Created This Site" title="Direct link to Why I Created This Site">​</a></h2>
+<p>When I finished my thesis, I felt both proud and frustrated. I had answers to questions like:</p>
+<ul>
+<li>Why does aggregate volatility sometimes remain high despite a large number of firms?</li>
+<li>How do firm size distributions shape the national economy’s shocks?</li>
+<li>What role do non-linearities and micro shocks play in shaping aggregate trends?</li>
+</ul>
+<p>Yet these answers were trapped in a static PDF—hard to navigate, hard to share, and hard to update.</p>
+<p>So I built this site as a <strong>dynamic companion</strong> to my thesis—a place where each chapter is a web page, and each insight can be linked, browsed, and even updated as new research emerges.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-youll-find-here">What You’ll Find Here<a href="https://thesis.matuteiglesias.link/blog/why-i-built-this-site#what-youll-find-here" class="hash-link" aria-label="Direct link to What You’ll Find Here" title="Direct link to What You’ll Find Here">​</a></h2>
+<p>This is a <strong>structured journey</strong> through the core themes that drive my research:</p>
+<ul>
+<li><strong>Aggregate Volatility</strong>: How individual firm fluctuations aggregate into national patterns—and why it matters.</li>
+<li><strong>Firm Size Distributions</strong>: How a few large firms can dominate economic dynamics.</li>
+<li><strong>Quantile Analysis</strong>: A fresh perspective on analyzing groups of firms and their contributions to aggregate variance.</li>
+<li><strong>Technical Frameworks</strong>: Rigorous, math-backed derivations for the curious and the technical-minded.</li>
+<li><strong>Data Insights</strong>: Grounded in French customs trade data, showing how theory meets the real world.</li>
+</ul>
+<p>Each section is designed to be <strong>approachable yet rigorous</strong>—so that whether you’re an economist, a data scientist, or simply curious, you can dive in at your own pace.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-it-matters">Why It Matters<a href="https://thesis.matuteiglesias.link/blog/why-i-built-this-site#why-it-matters" class="hash-link" aria-label="Direct link to Why It Matters" title="Direct link to Why It Matters">​</a></h2>
+<p>Economic fluctuations affect us all—from policymakers designing regulations to investors assessing risks. By making this knowledge accessible, I hope to spark <strong>better conversations</strong>, <strong>smarter decisions</strong>, and <strong>more resilient economies</strong>.</p>
+<p>For example: understanding that idiosyncratic variance doesn’t always vanish at scale helps explain why crises can emerge even in seemingly diversified systems. Insights like these can shape policies that account for real-world complexities rather than relying on oversimplified models.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="lets-connect">Let’s Connect<a href="https://thesis.matuteiglesias.link/blog/why-i-built-this-site#lets-connect" class="hash-link" aria-label="Direct link to Let’s Connect" title="Direct link to Let’s Connect">​</a></h2>
+<p>I’d love to hear your thoughts, feedback, or even collaborate on related projects. Connect with me on <a href="https://www.linkedin.com/in/matiasiglesias/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or email me at <a href="mailto:matuteiglesias@gmail.com" target="_blank" rel="noopener noreferrer">matuteiglesias@gmail.com</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="suggested-citations">Suggested Citations<a href="https://thesis.matuteiglesias.link/blog/why-i-built-this-site#suggested-citations" class="hash-link" aria-label="Direct link to Suggested Citations" title="Direct link to Suggested Citations">​</a></h2>
+<p>If you’d like to cite my work, please use the following references:</p>
+<blockquote>
+<p><strong>Iglesias, M. N. (2020).</strong> <em>Essays in the Economics of Aggregation in Empirical Contexts</em>. Doctoral dissertation, Scuola Superiore Sant’Anna, Pisa, Italy. Available at <a href="https://dta.santannapisa.it/t/etd-11252020-152446/" target="_blank" rel="noopener noreferrer">https://dta.santannapisa.it/t/etd-11252020-152446/</a>.</p>
+</blockquote>
+<blockquote>
+<p><strong>Iglesias, M. N. (2021).</strong>
+“<a href="https://ideas.repec.org/a/cii/cepiie/2021-q3-167-8.html" target="_blank" rel="noopener noreferrer">Measuring Size Distortions of Location Quotients</a>.” <em>International Economics</em>, CEPII research center, Issue 167, pp. 189–205.</p>
+</blockquote>
+<blockquote>
+<p><strong>Iglesias, M. N. (2021).</strong>
+“<a href="https://ideas.repec.org/p/egu/wpaper/2105.html" target="_blank" rel="noopener noreferrer">The Overlooked Insights from Correlation Structures in Economic Geography</a>.” <em>Papers in Evolutionary Economic Geography (PEEG)</em>, Utrecht University, Department of Human Geography and Spatial Planning, Group Economic Geography, revised January 2021.</p>
+</blockquote>
+<hr>
+<p><strong>Matías Iglesias</strong>
+Economist, Data Scientist</p>]]></content:encoded>
+            <category>thesis</category>
+            <category>economics</category>
+            <category>data science</category>
+            <category>volatility</category>
+            <category>aggregation</category>
+        </item>
+    </channel>
+</rss>
