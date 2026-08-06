@@ -1,33 +1,27 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
-
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Essays in the Economics of Aggregation',
-  tagline: 'Doctoral Thesis by Matías N. Iglesias',
+  title: 'Economics of Aggregation, Scale, and Measurement',
+  tagline: 'Research programme and thesis archive by Matías Iglesias',
   favicon: 'img/favicon.ico',
 
   future: {
     v4: true,
   },
 
-  url: 'https://thesis.matuteiglesias.link', // Your deployed thesis site
+  url: 'https://thesis.matuteiglesias.link',
   baseUrl: '/',
+  organizationName: 'matuteiglesias',
+  projectName: 'thesis',
 
-  organizationName: 'matuteiglesias', // Your GitHub username or org
-  projectName: 'thesis', // Your repo name
-
-  onBrokenLinks: 'warn', // show a warning for now
+  // Keep warnings during the redesign. Promote both settings to "throw"
+  // once the semantic routes and historical slugs have been fully checked.
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -42,13 +36,12 @@ const config = {
       ({
         docs: {
           path: 'docs',
+          sidebarPath: './sidebars.js',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          showLastUpdateTime: true,
+          breadcrumbs: true,
+          editUrl: 'https://github.com/matuteiglesias/thesis/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -56,11 +49,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
+          editUrl: 'https://github.com/matuteiglesias/thesis/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -71,6 +60,7 @@ const config = {
       }),
     ],
   ],
+
   stylesheets: [
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
@@ -81,29 +71,54 @@ const config = {
     },
   ],
 
-
-
-
-
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      {
+        name: 'description',
+        content:
+          'Research on aggregation, scale, volatility, specialization measures, and spatial economic structure, with guided access to the doctoral thesis archive.',
+      },
+      {
+        name: 'keywords',
+        content:
+          'economics, aggregation, scaling, concentration, volatility, location quotients, economic geography, Matías Iglesias',
+      },
+    ],
+    colorMode: {
+      defaultMode: 'light',
+      respectPrefersColorScheme: true,
+    },
     navbar: {
-      title: 'Essays in the Economics of Aggregation',
+      title: 'Matías Iglesias · Research',
       logo: {
-        alt: 'PhD Thesis Logo',
+        alt: 'Matías Iglesias research portal',
         src: 'img/logo.svg',
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: '/docs/intro',
+          label: 'Research programme',
           position: 'left',
-          label: 'PhD Thesis',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/matuteiglesias',
-          label: 'GitHub',
+          type: 'docSidebar',
+          sidebarId: 'researchSidebar',
+          label: 'Thesis archive',
+          position: 'left',
+        },
+        {
+          to: '/blog',
+          label: 'Research notes',
+          position: 'left',
+        },
+        {
+          href: 'https://github.com/matuteiglesias/concentration-is-not-scaling',
+          label: 'Current paper',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/matuteiglesias/thesis',
+          label: 'Source',
           position: 'right',
         },
       ],
@@ -112,17 +127,50 @@ const config = {
       style: 'dark',
       links: [
         {
-          title: 'PhD Thesis',
+          title: 'Research',
           items: [
             {
-              label: 'Main Sections',
+              label: 'Programme overview',
               to: '/docs/intro',
+            },
+            {
+              label: 'Aggregation reading guide',
+              to: '/docs/aggregation',
+            },
+            {
+              label: 'Location quotients and pLQ',
+              to: '/docs/category/location-quotients',
+            },
+            {
+              label: 'Correlations in geography',
+              to: '/docs/category/correlations-in-geography',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Academic record',
           items: [
+            {
+              label: 'Current paper and source',
+              href: 'https://github.com/matuteiglesias/concentration-is-not-scaling',
+            },
+            {
+              label: 'CV',
+              to: '/docs/General/cv',
+            },
+            {
+              label: 'ORCID',
+              href: 'https://orcid.org/0000-0002-2634-2944',
+            },
+          ],
+        },
+        {
+          title: 'Elsewhere',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/matuteiglesias',
+            },
             {
               label: 'LinkedIn',
               href: 'https://www.linkedin.com/in/matiasiglesias/',
@@ -131,39 +179,16 @@ const config = {
               label: 'ResearchGate',
               href: 'https://www.researchgate.net/profile/Matias-Iglesias-9',
             },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/matuteiglesias',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'CV',
-              href: '/docs/General/cv', // adjust if your CV has a different path
-            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Matias N. Iglesias. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Matías Iglesias. Research portal and thesis archive.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
   },
-  
-
-
-
-
-
 };
 
 export default config;

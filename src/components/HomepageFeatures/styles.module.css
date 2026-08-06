@@ -1,11 +1,107 @@
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+.section {
+  padding: 6.5rem 0;
+  color: #f2f6f7;
+  background: #20323c;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.58fr);
+  gap: 3rem;
+  align-items: end;
+  margin-bottom: 2.8rem;
+}
+
+.kicker {
+  margin: 0 0 0.75rem;
+  color: #8bcbbf;
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  max-width: 760px;
+  margin: 0;
+  color: #fff;
+  font-size: clamp(2rem, 4vw, 3.45rem);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+}
+
+.header > p {
+  margin: 0;
+  color: rgba(242, 246, 247, 0.68);
+  font-size: 1.03rem;
+  line-height: 1.72;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.transformation {
+  display: flex;
+  min-height: 390px;
+  flex-direction: column;
+  padding: 2rem 2rem 2.2rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.transformation:last-child {
+  border-right: none;
+}
+
+.number {
+  color: #d9b06f;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 2.2rem;
+}
+
+.transformation h3 {
+  margin: 2rem 0 1.2rem;
+  color: #fff;
+  font-size: 1.55rem;
+  line-height: 1.28;
+}
+
+.transformation p {
+  color: rgba(242, 246, 247, 0.67);
+  line-height: 1.68;
+}
+
+.transformation .question {
+  color: #eff4f5;
+  font-size: 1.05rem;
+}
+
+.transformation a {
+  margin-top: auto;
+  color: #9bd5ca;
+  font-weight: 760;
+}
+
+@media (max-width: 996px) {
+  .header {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .transformation {
+    min-height: 0;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .transformation:last-child {
+    border-bottom: none;
+  }
 }
