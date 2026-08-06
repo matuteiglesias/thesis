@@ -30,13 +30,13 @@ The portal distinguishes among **current manuscripts**, **peer-reviewed publicat
 
 Across the three essays, the measured economic object depends on both the underlying micro information and the rule used to aggregate it:
 
-\[
+$$
 \text{microeconomic information}
 \;\longrightarrow\;
 \text{aggregation or normalization rule}
 \;\longrightarrow\;
 \text{measured economic object}.
-\]
+$$
 
 The rule is not always a neutral final step.
 
@@ -54,15 +54,15 @@ The active research front studies diversification and aggregate volatility.
 
 For a weighted aggregate, direct concentration is
 
-\[
+$$
 H(N)=w(N)^\top w(N),
-\]
+$$
 
 while aggregate variance is
 
-\[
+$$
 V(N)=w(N)^\top\Sigma_\varepsilon(N)w(N).
-\]
+$$
 
 The first object is a property of direct economic weights. The second also depends on marginal shock variances, covariance, composition, and the population path indexed by \(N\).
 
@@ -102,9 +102,9 @@ An identical LQ value may therefore represent a different economic state for obs
 
 The **probabilistic location quotient** reframes the threshold \(LQ>1\) as a conditional transition probability:
 
-\[
+$$
 pLQ_{cp,t}=P\!\left(LQ_{cp,t+1}>1\mid\text{current size conditions}\right).
-\]
+$$
 
 The published contribution establishes the size-distortion problem and develops the probabilistic framework. Predictive calibration, diversification forecasting, and comparison with alternative measures remain possible future extensions rather than active claims of the current programme.
 
